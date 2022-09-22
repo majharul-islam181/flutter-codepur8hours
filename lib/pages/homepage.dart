@@ -14,6 +14,7 @@ class MyhomePage extends StatelessWidget {
           child: Text('this is sample field!'),
         )
       ),
+      drawer: Drawer(),
 
     );
   }
