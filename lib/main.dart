@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // bringVegetables(bag: false);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       /* dark mode.
       themeMode: ThemeMode.dark,
@@ -29,9 +30,9 @@ class MyApp extends StatelessWidget {
       // home: const MyhomePage(),
       //
       routes: {
-        '/':(context) => LoginPage(),//initial route use ("/") or ('/')
-        '/home': (context) => MyhomePage(),
-        '/login': (context) => LoginPage(),
+        '/':(context) => const LoginPage(),//initial route use ("/") or ('/')
+        '/home': (context) => const MyhomePage(),
+        '/login': (context) => const LoginPage(),
     },
     );
   }
