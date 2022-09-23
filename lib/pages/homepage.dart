@@ -11,7 +11,7 @@ class MyhomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text('this is sample field!'),
+          child: Text('this is home field!'),
         )
       ),
       drawer: Drawer(),
