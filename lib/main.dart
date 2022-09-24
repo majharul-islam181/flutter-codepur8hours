@@ -1,4 +1,5 @@
 import 'package:codepur_flutter/loginpage.dart';
+import 'package:codepur_flutter/widgets/themes.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:codepur_flutter/pages/homepage.dart';
 import 'package:flutter/material.dart';
@@ -22,10 +23,9 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
   */
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        fontFamily: GoogleFonts.lato().fontFamily,
-      ),
+      theme: MyTheme.lightTheme(context),
+      darkTheme:MyTheme.darkTheme(context),
+
       //
       // home: const MyhomePage(),
       //
