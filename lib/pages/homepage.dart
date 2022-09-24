@@ -1,3 +1,4 @@
+import 'package:codepur_flutter/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class MyhomePage extends StatelessWidget {
@@ -14,7 +15,7 @@ class MyhomePage extends StatelessWidget {
           child: Text('this is home field!'),
         )
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
 
     );
   }
