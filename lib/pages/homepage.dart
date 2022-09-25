@@ -11,7 +11,7 @@ class MyhomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Catolog App'),
+        title: Text('Catalog App'),
         /*
         backgroundColor: Colors.white,
         elevation: 0.0,
@@ -22,7 +22,7 @@ class MyhomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text('Welco $days!'),
+          child: Text(context.runtimeType.toString()),
         )
       ),
       drawer: MyDrawer(),

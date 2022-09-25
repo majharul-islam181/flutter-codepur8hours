@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
 
@@ -17,6 +16,7 @@ class _LoginPageState extends State<LoginPage> {
       setState(() {
         changeButton = true;
       });
+
       await Future.delayed(Duration(seconds: 1));
       await Navigator.pushNamed(context, '/home');
       setState(() {
