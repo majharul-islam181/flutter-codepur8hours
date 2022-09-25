@@ -16,7 +16,7 @@ class item{
 
 
 class  CatalogModel{
-  static final products = [
+  static final items = [
     item(id: "coder001", name: 'Iphone 12', desc: 'Apple iphone 12th generation', price: 888, color: "#33505a", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc"),
   ];
 }
